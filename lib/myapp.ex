@@ -20,6 +20,6 @@ defmodule Myapp do
     Supervisor.start_link(children, opts)
   end
   def sayhello do
-    Logger.info "Hello"
+    Logger.info "Hello world!"
   end
 end
