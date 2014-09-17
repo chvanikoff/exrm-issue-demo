@@ -7,12 +7,15 @@ Logger error reproducing steps:
 Run `git checkout v0.0.1` to checkout 0.0.1 release
 
 Run rel.sh to deploy release 0.0.1 to ./tmp
+
 Run `Myapp.sayhello` at iex shell
+
 ctrl+d
 
 Run `git checkout v0.0.2` to checkout 0.0.2 release
 
 Run up.sh to perform upgrade to 0.0.2
+
 Try running same command `Myapp.sayhello` again and observe the error
 
 Only manual restarting :logger (which is shown as running) app helps:
